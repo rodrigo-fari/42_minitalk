@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rde-fari <rde-fari@student.42porto.com>    +#+  +:+       +#+        */
+/*   By: rde-fari <rde-fari@student.42poto.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/23 21:42:17 by rde-fari          #+#    #+#             */
-/*   Updated: 2024/09/26 19:34:57 by rde-fari         ###   ########.fr       */
+/*   Updated: 2024/10/02 10:13:37 by rde-fari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ char	*mod_strjoin(char *str, char c)
 
 	i = 0;
 	j = 0;
+	size = 0;
 	if (str)
 		size = ft_strlen(str);
 	temp_str = NULL;
